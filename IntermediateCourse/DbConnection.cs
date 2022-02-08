@@ -8,10 +8,10 @@ namespace DatabaseConnection
 {
     public abstract class DbConnection
     {
-        private string ConnectionString;
-        private TimeSpan Timeout;
-        private DateTime Start;
-        internal bool IsConnected;
+        private string ConnectionString { get; set; }
+        private TimeSpan Timeout { get; set; }
+        private DateTime Start { get; set; }
+        internal bool IsConnected { get; set; }
 
         public DbConnection(string connectionString, TimeSpan timeout)
         {

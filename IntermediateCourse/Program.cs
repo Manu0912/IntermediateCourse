@@ -11,11 +11,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             OracleConnection oracleConnection = new("ASDJSND",new TimeSpan(0,0,10));
             SqlConnection sqlConnection = new("ASDJSND", new TimeSpan(0, 0, 10));
 
-            oracleConnection.OpenConnection();
-            oracleConnection.CloseConnection();
+            DbCommand sqlCommand = new(sqlConnection, "select * from exampleTable");
+            DbCommand oracleCommand = new(oracleConnection, "select * from exampleTable");
 
-            sqlConnection.OpenConnection();
-            sqlConnection.CloseConnection();    
+            sqlCommand.Execute();
+            oracleCommand.Execute();
         }
     }
 }
