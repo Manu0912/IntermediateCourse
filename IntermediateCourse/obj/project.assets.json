@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ecacheda\\source\\repos\\IntermediateCourse\\IntermediateCourse\\IntermediateCourse.csproj",
-      "projectName": "IntermediateCourse",
-      "projectPath": "C:\\Users\\ecacheda\\source\\repos\\IntermediateCourse\\IntermediateCourse\\IntermediateCourse.csproj",
+      "projectUniqueName": "C:\\Users\\ecacheda\\source\\repos\\IntermediateCourse\\IntermediateCourse\\DatabaseConnection.csproj",
+      "projectName": "DatabaseConnection",
+      "projectPath": "C:\\Users\\ecacheda\\source\\repos\\IntermediateCourse\\IntermediateCourse\\DatabaseConnection.csproj",
       "packagesPath": "C:\\Users\\ecacheda\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ecacheda\\source\\repos\\IntermediateCourse\\IntermediateCourse\\obj\\",
       "projectStyle": "PackageReference",
