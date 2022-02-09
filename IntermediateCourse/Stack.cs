@@ -8,7 +8,7 @@ namespace StackNamespace
 {
     public class Stack
     {
-        public List<object> List { get; set; }
+        private List<object> List { get; set; }
 
         public Stack()
         {
